@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="carrito.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/bfca9739bd.js" crossorigin="anonymous"></script>
+    <title> L a k r a | HOME </title>
+    <link rel="shortcut icon" href="./img/logo.png" type="image/x-icon">
+</head>
+<body>
+    <!-- BARRA DE NAVEGACIÓN -->
+    <nav class="navbar navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="./img/logo.png" alt="">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">LAKRA</h5>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="carrito.html">Camperas</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+    </nav>
+
+    <!-- CARRUSEL DE IMAGENES -->
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./img/carrusel1.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Columbia</h5>
+              <p>3 cuotas sin interés de $4.990</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./img/carrusel2.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Patagonia</h5>
+              <p>3 cuotas sin interés de $3.790</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./img/carrusel3.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Montagne</h5>
+              <p>3 cuotas sin interés de $7.990</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!-- INFORMACIÓN -->
+    <h1>Info importante</h1>
+    <div class="info">
+        <div class="individual">
+            <img class="icono" src="./img/delivery.png" alt="">
+            <h2>Envíos a todo el país</h2>
+            <p>Por Correo Argentino</p>
+        </div>
+        <div class="individual">
+            <img class="icono" src="./img/tarjeta.png" alt="">
+            <h2>3 cuotas sin interés</h2>
+            <p>con tarjeta de credito</p>
+        </div>
+        <div class="individual">
+            <img class="icono" src="./img/peso.png" alt="">
+            <h2>10% OFF por pago en efectivo</h2>
+            <p>en toda la tienda</p>
+        </div>
+        <div class="individual">
+            <img class="icono" src="./img/return.png" alt="">
+            <h2>Cambios dentro de los 30 días</h2>
+            <p>Reintegro dentro de las 48 horas</p>
+        </div>
+    </div>
+    
+    <!-- FOOTER -->
+    <footer class="pie-pagina">
+      <div class="grupo1">
+        <div class="box">
+          <figure>
+            <a href="">
+              <img src="./img/logo.png" alt="">
+            </a>
+          </figure>
+        </div>
+        <div class="box">
+          <h2>Sobre Nosotros</h2>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium exercitationem eius nostrum, mollitia possimus impedit quidem ut deleniti dicta delectus assumenda aliquam dolores quia! Repudiandae.</p>
+        </div>
+        <div class="box">
+          <h2>Siguenos</h2>
+          <div class="red-social">
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-instagram"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-youtube"></a>
+          </div>
+        </div>
+      </div>
+      <div class="grupo2">
+        <small>&copy; 2022 <b>L A K R A</b> - Todos los Derechos reservados.</small>
+      </div>
+    </footer>
+
+    <!-- Sweet Alert -->
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+</html>

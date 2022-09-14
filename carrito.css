@@ -1,0 +1,116 @@
+.titulo{
+    display: flex;
+    justify-content: center;
+}
+
+.navbar-brand img{
+    width: 70px;
+    height: 70px;
+    margin-left: 50px;
+}
+
+.offcanvas-title{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+.info{
+    display: flex;
+    justify-content: space-around;
+}
+
+.icono{
+    width: 60px;
+    height: 60px;
+    display: flex;
+}
+
+.individual{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+}
+
+.individual h2{
+    text-align: center;
+    font-size: 25px;
+}
+
+h1{
+    text-align: center;
+    padding: 20px;
+}
+
+.pie-pagina{
+    width: 100%;
+    background-color: black;
+}
+
+.pie-pagina .grupo1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+}
+
+.pie-pagina .grupo1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pie-pagina .grupo1 .box figure img{
+    width: 100px;
+}
+
+.pie-pagina .grupo1 .box h2{
+    color: white;
+    margin-bottom: 25px;
+    font-size: 25px;
+}
+
+.pie-pagina .grupo1 .box p{
+    color: #efefef;
+    margin-bottom: 10px;
+}
+
+.pie-pagina .grupo1 .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: white;
+    margin-right: 10px;
+    background-color: #0d2033;
+    text-align: center;
+}
+
+.pie-pagina .grupo1 .red-social a:hover{
+    color: aqua;
+}
+
+.pie-pagina .grupo2{
+    background-color: #0a1a2a;
+    padding: 15px 10px;
+    text-align: center;
+    color: white;
+}
+
+.pie-pagina .grupo2 small{
+    font-size: 15px;
+}
+
+@media screen and (max-width:800px){
+    .pie-pagina .grupo1{
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+        padding: 35px 0px;
+    }
+}
+

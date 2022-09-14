@@ -1,0 +1,34 @@
+[
+    {
+        "id": 1,
+        "marca": "The NorthFace",
+        "genero": "Hombre",
+        "caracteristicas": "Campera de nylon con guata matelaseada y forreria al tono. Cierre central. Modelo super abigado.",
+        "precio": 25000,
+        "imagen": "/img/1.jpg"
+    },
+    {
+        "id": 2,
+        "marca": "Adidas",
+        "genero": "Mujer",
+        "caracteristicas": "Campera de nylon con guata matelaseada y forreria al tono. Multiples bolsillos y  sin capucha.",
+        "precio": 21000,
+        "imagen": "/img/3.jpg"
+    },
+    {
+        "id": 3,
+        "marca": "Nike",
+        "genero": "Hombre",
+        "caracteristicas": "Campera de nylon con guata matelaseada y forreria al tono. Cierre central. Modelo super abigado.",
+        "precio": 22500,
+        "imagen": "/img/2.jpg"
+    },
+    {
+        "id": 4,
+        "marca": "Kelme",
+        "genero": "Hombre",
+        "caracteristicas": "Campera del mas grande del oeste Argentino.",
+        "precio": 11700,
+        "imagen": "/img/6.jpg"
+    }
+]
